@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+import { modules } from "../modules/modules";
 
 export class app {
   private app: express.Application;
@@ -17,7 +18,9 @@ export class app {
 
   private config(): void {}
 
-  private setUpBackEnd(): void {}
+  private setUpBackEnd(): void {
+    this.app.use(modules.dumpModule.baseUri, modules.dumpModule.router);
+  }
 
   private setUpFrontkEnd(): void {
     this.app.use("/", (req, res) => {
