@@ -3,7 +3,7 @@ import path from "path";
 export const dumpQueries = {
   loadLocations: {
     query:
-      "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {name: row.location})",
+      "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {name: row.location, infected: row.infected})",
     file: "file:///" + path.join(__dirname, "..", "..", "data", "location.csv"),
   },
   loadPeople: {
