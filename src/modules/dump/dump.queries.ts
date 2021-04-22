@@ -6,7 +6,7 @@ export const dumpQueries = {
   },
   loadPeople: {
     query:
-      "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Person {name: row.firstname, last_name: row.lastname})",
+      "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Person {name: row.firstname, last_name: row.lastname, infected: toBoolean(row.infected)})",
     file: `file:///${__dirname}/../../data/people.csv`,
   },
   relatePeopleWithLocation: {
