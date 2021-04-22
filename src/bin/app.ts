@@ -16,10 +16,13 @@ export class app {
     return this.app;
   }
 
-  private config(): void {}
+  private config(): void {
+    this.app.use(express.json());
+  }
 
   private setUpBackEnd(): void {
     this.app.use(modules.dumpModule.baseUri, modules.dumpModule.router);
+    this.app.use(modules.personModule.baseUri, modules.personModule.router);
   }
 
   private setUpFrontkEnd(): void {
