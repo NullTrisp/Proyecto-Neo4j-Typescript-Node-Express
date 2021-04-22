@@ -27,7 +27,7 @@ export class PersonController {
   ): Promise<void> {
     try {
       const session = DBDRIVER.session();
-      await session.run();
+      await session.run("");
       session.close();
       res.sendStatus(201);
     } catch (err) {
@@ -42,7 +42,7 @@ export class PersonController {
   ): Promise<void> {
     try {
       const session = DBDRIVER.session();
-      await session.run();
+      await session.run("");
       session.close();
       res.sendStatus(201);
     } catch (err) {
