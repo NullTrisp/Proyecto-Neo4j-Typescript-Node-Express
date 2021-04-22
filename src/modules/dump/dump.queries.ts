@@ -1,13 +1,15 @@
+import path from "path";
+
 export const dumpQueries = {
   loadLocations: {
     query:
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {name: row.location})",
-    file: `file:///${__dirname}/../../data/location.csv`,
+    file: "file:///" + path.join(__dirname, "..", "..", "data", "location.csv"),
   },
   loadPeople: {
     query:
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Person {name: row.firstname, last_name: row.lastname, infected: toBoolean(row.infected)})",
-    file: `file:///${__dirname}/../../data/people.csv`,
+    file: "file:///" + path.join(__dirname, "..", "..", "data", "people.csv"),
   },
   relatePeopleWithLocation: {
     query:

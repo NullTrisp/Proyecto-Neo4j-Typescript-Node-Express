@@ -35,7 +35,7 @@ export class DumpController {
       await session.run(dumpModule.queries.deleteRelationVisited.query);
       await session.run(dumpModule.queries.deleteNodes.query);
       session.close();
-      res.sendStatus(201);
+      res.sendStatus(204);
     } catch (err) {
       res.status(500).send(err);
       console.error(err);
