@@ -23,6 +23,7 @@ export class app {
   private setUpBackEnd(): void {
     this.app.use(modules.dumpModule.baseUri, modules.dumpModule.router);
     this.app.use(modules.personModule.baseUri, modules.personModule.router);
+    this.app.use(modules.locationModule.baseUri, modules.locationModule.router);
   }
 
   private setUpFrontkEnd(): void {
