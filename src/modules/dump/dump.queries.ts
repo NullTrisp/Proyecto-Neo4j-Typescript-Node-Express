@@ -1,6 +1,7 @@
 import path from "path";
+import { queries } from "../../classes/datatypes/queries";
 
-export const dumpQueries = {
+export const dumpQueries: queries = {
   loadLocations: {
     query:
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {name: row.location, infected: row.infected})",

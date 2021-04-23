@@ -1,10 +1,11 @@
 import { DumpController } from "./dump.controller";
-import { router as DumpRotuer } from "./dump.router";
+import { dumpRouter } from "./dump.router";
 import { dumpQueries } from "./dump.queries";
+import { module } from "../../classes/datatypes/module";
 
-export const dumpModule = {
+export const dumpModule: module = {
   baseUri: "/dump",
   controller: DumpController,
-  router: DumpRotuer,
   queries: dumpQueries,
+  router: dumpRouter,
 };
