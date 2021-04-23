@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { DBDRIVER } from "../../bin/adapter";
+import { runQuery } from "../../utils/query";
 import { personModule } from "./person.module";
 
 export class PersonController {
@@ -8,12 +8,10 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      const { infectNum = 1 as number } = req.body;
-      const session = DBDRIVER.session();
-      await session.run(personModule.queries.infectPerson.query, {
-        infectNum: infectNum,
+      const { infectNum = 1 } = req.body;
+      runQuery(personModule.queries.infectPerson.query, {
+        infectNum: infectNum as number,
       });
-      session.close();
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -26,10 +24,34 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      const session = DBDRIVER.session();
-      await session.run("");
-      session.close();
+      await runQuery(personModule.queries.addRelated.query);
       res.sendStatus(201);
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
+  public static async addVisited(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      await runQuery(personModule.queries.relatePeopleWithLocation.query);
+      res.sendStatus(201);
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
+  public static async deleteVisited(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      await runQuery(personModule.queries.deleteRelationVisited.query);
+      res.sendStatus(204);
     } catch (err) {
       res.status(500).send(err);
       console.error(err);
@@ -41,9 +63,22 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      const session = DBDRIVER.session();
-      await session.run("");
-      session.close();
+      await runQuery(personModule.queries.infectRelated.query);
+      res.sendStatus(201);
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
+  public static async infectWithVisitedInfectedLocation(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      await runQuery(
+        personModule.queries.infectPersonVisitedInfectedLocation.query
+      );
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
