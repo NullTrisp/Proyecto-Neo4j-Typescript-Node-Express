@@ -1,5 +1,6 @@
-import { DBDRIVER } from "../../bin/adapter";
 import { Request, Response } from "express";
+import { DBDRIVER } from "../../bin/adapter";
+import { runQuery } from "../../utils/query";
 import { dumpModule } from "./dump.module";
 
 export class DumpController {
@@ -8,16 +9,20 @@ export class DumpController {
     res: Response
   ): Promise<void> {
     try {
-      const session = DBDRIVER.session();
-      await session.run(dumpModule.queries.loadLocations.query, {
-        location: dumpModule.queries.loadLocations.file,
-      });
-      await session.run(dumpModule.queries.loadPeople.query, {
-        location: dumpModule.queries.loadPeople.file,
-      });
-      await session.run(dumpModule.queries.relatePeopleWithLocation.query);
-      await session.run(dumpModule.queries.relatePeoplewithPeople.query);
-      session.close();
+      await runQuery(
+        dumpModule.queries.loadLocations.query,
+        dumpModule.queries.loadLocations.params
+      );
+
+      await runQuery(
+        dumpModule.queries.loadPeople.query,
+        dumpModule.queries.loadPeople.params
+      );
+
+      await runQuery(dumpModule.queries.relatePeopleWithLocation.query);
+
+      await runQuery(dumpModule.queries.relatePeoplewithPeople.query);
+
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -30,11 +35,10 @@ export class DumpController {
     res: Response
   ): Promise<void> {
     try {
-      const session = DBDRIVER.session();
-      await session.run(dumpModule.queries.deleteRelationRelated.query);
-      await session.run(dumpModule.queries.deleteRelationVisited.query);
-      await session.run(dumpModule.queries.deleteNodes.query);
-      session.close();
+      await runQuery(dumpModule.queries.deleteRelationRelated.query);
+      await runQuery(dumpModule.queries.deleteRelationVisited.query);
+      await runQuery(dumpModule.queries.deleteNodes.query);
+
       res.sendStatus(204);
     } catch (err) {
       res.status(500).send(err);
