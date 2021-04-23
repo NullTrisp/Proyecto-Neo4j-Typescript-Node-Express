@@ -9,7 +9,7 @@ export class app {
     this.app = express();
     this.config();
     this.setUpBackEnd();
-    this.setUpFrontkEnd();
+    this.setUpFrontEnd();
   }
 
   public getApp(): express.Application {
@@ -26,7 +26,7 @@ export class app {
     this.app.use(modules.locationModule.baseUri, modules.locationModule.router);
   }
 
-  private setUpFrontkEnd(): void {
+  private setUpFrontEnd(): void {
     this.app.use("/", (req, res) => {
       res.sendFile(path.resolve(`${__dirname}/../templates/index.html`));
     });
