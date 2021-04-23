@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { DBDRIVER } from "../../bin/adapter";
 import { runQuery } from "../../utils/query";
 import { dumpModule } from "./dump.module";
 
@@ -18,8 +17,6 @@ export class DumpController {
         dumpModule.queries.loadPeople.query,
         dumpModule.queries.loadPeople.params
       );
-
-      await runQuery(dumpModule.queries.relatePeopleWithLocation.query);
 
       await runQuery(dumpModule.queries.relatePeoplewithPeople.query);
 
