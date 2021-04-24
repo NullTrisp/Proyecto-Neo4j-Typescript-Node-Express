@@ -1,5 +1,5 @@
 {
-  "name": "covid-19-tracer",
+  "name": "tracerback",
   "version": "1.0.0",
   "description": "",
   "main": "src/bin/server.ts",

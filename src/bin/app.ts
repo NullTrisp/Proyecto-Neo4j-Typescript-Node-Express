@@ -9,7 +9,6 @@ export class app {
     this.app = express();
     this.config();
     this.setUpBackEnd();
-    this.setUpFrontEnd();
   }
 
   public getApp(): express.Application {
@@ -24,11 +23,5 @@ export class app {
     this.app.use(modules.dumpModule.baseUri, modules.dumpModule.router);
     this.app.use(modules.personModule.baseUri, modules.personModule.router);
     this.app.use(modules.locationModule.baseUri, modules.locationModule.router);
-  }
-
-  private setUpFrontEnd(): void {
-    this.app.use("/", (req, res) => {
-      res.sendFile(path.resolve(`${__dirname}/../templates/index.html`));
-    });
   }
 }
