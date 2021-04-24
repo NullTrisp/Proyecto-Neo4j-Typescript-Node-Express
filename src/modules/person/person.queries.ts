@@ -23,4 +23,7 @@ export const personQueries: queries = {
     query:
       "MATCH (:Location:Infected)<-[:VISITED]-(n:Person) WITH COLLECT(n) AS ns FOREACH(i IN ns | SET i.infected = true SET i:Infected)",
   },
+  getInfectedPeople: {
+    query: "MATCH (n:Infected:Person) RETURN n",
+  },
 };

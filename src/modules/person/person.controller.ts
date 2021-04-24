@@ -3,6 +3,27 @@ import { runQuery } from "../../utils/query";
 import { personModule } from "./person.module";
 
 export class PersonController {
+  public static async getInfectedPeople(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      const infectePeople = await runQuery(
+        personModule.queries.getInfectedPeople.query
+      );
+
+      res
+        .status(200)
+        .send({
+          total: infectePeople.records.length,
+          records: infectePeople.records,
+        });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
   public static async infect(
     req: Request<import("express-serve-static-core").ParamsDictionary>,
     res: Response
