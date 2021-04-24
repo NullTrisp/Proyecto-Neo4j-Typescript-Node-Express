@@ -15,4 +15,22 @@ export class LocationController {
       console.error(err);
     }
   }
+
+  public static async getInfectedLocations(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      const result = await runQuery(
+        locationModule.queries.getInfectedLocations.query
+      );
+      res.status(200).send({
+        total: result.records.length,
+        records: result.records,
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
 }

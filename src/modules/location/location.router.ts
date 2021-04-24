@@ -8,3 +8,7 @@ export const locationRouter = express.Router({
 locationRouter.post("/infect", (req: Request, res: Response) => {
   locationModule.controller.infectLocation(req, res);
 });
+
+locationRouter.get("/infected", (req: Request, res: Response) => {
+  locationModule.controller.getInfectedLocations(req, res);
+});
