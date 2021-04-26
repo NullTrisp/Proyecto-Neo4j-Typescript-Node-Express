@@ -1,7 +1,7 @@
 import express from "express";
-import path from "path";
 import { modules } from "../modules/modules";
-
+import cors from "cors";
+import { CONSTANTS } from "./constants";
 export class app {
   private app: express.Application;
 
@@ -17,6 +17,7 @@ export class app {
 
   private config(): void {
     this.app.use(express.json());
+    this.app.use(cors({ origin: CONSTANTS.ORIGIN }));
   }
 
   private setUpBackEnd(): void {
