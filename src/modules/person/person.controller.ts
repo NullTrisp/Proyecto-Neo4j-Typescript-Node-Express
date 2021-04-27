@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { runQuery } from "../../utils/query";
 import { personModule } from "./person.module";
+import neo4j from "neo4j-driver";
 
 export class PersonController {
   public static async getInfectedPeople(
@@ -12,12 +13,10 @@ export class PersonController {
         personModule.queries.getInfectedPeople.query
       );
 
-      res
-        .status(200)
-        .send({
-          total: infectePeople.records.length,
-          records: infectePeople.records,
-        });
+      res.status(200).send({
+        total: infectePeople.records.length,
+        records: infectePeople.records,
+      });
     } catch (err) {
       res.status(500).send(err);
       console.error(err);
@@ -31,7 +30,7 @@ export class PersonController {
     try {
       const { infectNum = 1 } = req.body;
       runQuery(personModule.queries.infectPerson.query, {
-        infectNum: infectNum as number,
+        infectNum: neo4j.int(infectNum),
       });
       res.sendStatus(201);
     } catch (err) {

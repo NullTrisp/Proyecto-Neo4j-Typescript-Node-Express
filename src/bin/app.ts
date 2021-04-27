@@ -2,6 +2,7 @@ import express from "express";
 import { modules } from "../modules/modules";
 import cors from "cors";
 import { CONSTANTS } from "./constants";
+
 export class app {
   private app: express.Application;
 
