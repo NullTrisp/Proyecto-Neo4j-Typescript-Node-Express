@@ -12,3 +12,7 @@ locationRouter.post("/infect", (req: Request, res: Response) => {
 locationRouter.get("/infected", (req: Request, res: Response) => {
   locationModule.controller.getInfectedLocations(req, res);
 });
+
+locationRouter.get("/", (req: Request, res: Response) => {
+  locationModule.controller.getLocations(req, res);
+});

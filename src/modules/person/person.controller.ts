@@ -105,4 +105,21 @@ export class PersonController {
       console.error(err);
     }
   }
+
+  public static async getPeople(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      const people = await runQuery(personModule.queries.getPeople.query);
+
+      res.status(200).send({
+        total: people.records.length,
+        records: people.records,
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
 }

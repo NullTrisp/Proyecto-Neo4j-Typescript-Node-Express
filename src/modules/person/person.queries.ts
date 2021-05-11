@@ -26,4 +26,7 @@ export const personQueries: queries = {
   getInfectedPeople: {
     query: "MATCH (n:Infected:Person) RETURN n",
   },
+  getPeople: {
+    query: "MATCH(n:Person) return n",
+  },
 };

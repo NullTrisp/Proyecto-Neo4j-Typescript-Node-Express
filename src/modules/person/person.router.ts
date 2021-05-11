@@ -28,3 +28,7 @@ personRouter.post("/infect/visited", (req: Request, res: Response) => {
 personRouter.get("/infected", (req: Request, res: Response) => {
   personModule.controller.getInfectedPeople(req, res);
 });
+
+personRouter.get("/", (req: Request, res: Response) => {
+  personModule.controller.getPeople(req, res);
+});
