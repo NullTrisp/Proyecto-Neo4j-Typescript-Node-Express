@@ -8,3 +8,7 @@ export const analyticsRouter = express.Router({
 analyticsRouter.post("/", (req: Request, res: Response) => {
   analyticsModule.controller.createAnalytics(req, res);
 });
+
+analyticsRouter.get("/", (req: Request, res: Response) => {
+  analyticsModule.controller.getAnalytics(req, res);
+});

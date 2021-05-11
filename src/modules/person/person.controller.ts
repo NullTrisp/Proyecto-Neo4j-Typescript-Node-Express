@@ -15,7 +15,9 @@ export class PersonController {
 
       res.status(200).send({
         total: infectePeople.records.length,
-        records: infectePeople.records,
+        records: infectePeople.records.map(
+          (el: any) => el._fields[0].properties
+        ),
       });
     } catch (err) {
       res.status(500).send(err);

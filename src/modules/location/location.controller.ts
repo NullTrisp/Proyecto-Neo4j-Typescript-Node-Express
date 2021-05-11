@@ -26,7 +26,7 @@ export class LocationController {
       );
       res.status(200).send({
         total: result.records.length,
-        records: result.records,
+        records: result.records.map((el: any) => el._fields[0].properties),
       });
     } catch (err) {
       res.status(500).send(err);

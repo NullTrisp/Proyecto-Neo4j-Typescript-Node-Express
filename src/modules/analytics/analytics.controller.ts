@@ -23,4 +23,21 @@ export class AnalyticsController {
       console.error(err);
     }
   }
+
+  public static async getAnalytics(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ) {
+    try {
+      const query = (await runQuery(analyticsModule.queries.getAnalytics))
+        .records;
+      res.status(200).send({
+        total: query.length,
+        records: query.map((el: any) => el._fields[0].properties),
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
 }
