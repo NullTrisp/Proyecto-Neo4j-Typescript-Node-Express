@@ -4,7 +4,7 @@ export type queries = {
   [key: string]: query;
 };
 
-type query = {
+export type query = {
   query: string;
   params?: Parameters;
 };

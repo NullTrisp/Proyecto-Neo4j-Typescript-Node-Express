@@ -8,17 +8,11 @@ export class DumpController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(
-        dumpModule.queries.loadLocations.query,
-        dumpModule.queries.loadLocations.params
-      );
+      await runQuery(dumpModule.queries.loadLocations);
 
-      await runQuery(
-        dumpModule.queries.loadPeople.query,
-        dumpModule.queries.loadPeople.params
-      );
+      await runQuery(dumpModule.queries.loadPeople);
 
-      await runQuery(dumpModule.queries.relatePeoplewithPeople.query);
+      await runQuery(dumpModule.queries.relatePeoplewithPeople);
 
       res.sendStatus(201);
     } catch (err) {
@@ -32,9 +26,9 @@ export class DumpController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(dumpModule.queries.deleteRelationRelated.query);
-      await runQuery(dumpModule.queries.deleteRelationVisited.query);
-      await runQuery(dumpModule.queries.deleteNodes.query);
+      await runQuery(dumpModule.queries.deleteRelationRelated);
+      await runQuery(dumpModule.queries.deleteRelationVisited);
+      await runQuery(dumpModule.queries.deleteNodes);
 
       res.sendStatus(204);
     } catch (err) {

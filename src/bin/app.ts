@@ -25,5 +25,9 @@ export class app {
     this.app.use(modules.dumpModule.baseUri, modules.dumpModule.router);
     this.app.use(modules.personModule.baseUri, modules.personModule.router);
     this.app.use(modules.locationModule.baseUri, modules.locationModule.router);
+    this.app.use(
+      modules.analyticsModule.baseUri,
+      modules.analyticsModule.router
+    );
   }
 }

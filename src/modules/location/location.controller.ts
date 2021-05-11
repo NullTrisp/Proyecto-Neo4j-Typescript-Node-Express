@@ -8,7 +8,7 @@ export class LocationController {
     res: Response
   ): Promise<void> {
     try {
-      runQuery(locationModule.queries.infectLocation.query);
+      runQuery(locationModule.queries.infectLocation);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -22,7 +22,7 @@ export class LocationController {
   ): Promise<void> {
     try {
       const result = await runQuery(
-        locationModule.queries.getInfectedLocations.query
+        locationModule.queries.getInfectedLocations
       );
       res.status(200).send({
         total: result.records.length,
@@ -39,11 +39,11 @@ export class LocationController {
     res: Response
   ): Promise<void> {
     try {
-      const result = await runQuery(locationModule.queries.getLocations.query);
+      const result = await runQuery(locationModule.queries.getLocations);
 
       res.status(200).send({
         total: result.records.length,
-        records: result.records,
+        records: result.records.map((el: any) => el._fields[0].properties),
       });
     } catch (err) {
       res.status(500).send(err);

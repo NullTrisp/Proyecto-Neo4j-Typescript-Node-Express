@@ -10,7 +10,7 @@ export class PersonController {
   ): Promise<void> {
     try {
       const infectePeople = await runQuery(
-        personModule.queries.getInfectedPeople.query
+        personModule.queries.getInfectedPeople
       );
 
       res.status(200).send({
@@ -29,9 +29,10 @@ export class PersonController {
   ): Promise<void> {
     try {
       const { infectNum = 1 } = req.body;
-      runQuery(personModule.queries.infectPerson.query, {
+      personModule.queries.infectPerson.params = {
         infectNum: neo4j.int(infectNum),
-      });
+      };
+      await runQuery(personModule.queries.infectPerson);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -44,7 +45,7 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(personModule.queries.addRelated.query);
+      await runQuery(personModule.queries.addRelated);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -57,7 +58,7 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(personModule.queries.relatePeopleWithLocation.query);
+      await runQuery(personModule.queries.relatePeopleWithLocation);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -70,7 +71,7 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(personModule.queries.deleteRelationVisited.query);
+      await runQuery(personModule.queries.deleteRelationVisited);
       res.sendStatus(204);
     } catch (err) {
       res.status(500).send(err);
@@ -83,7 +84,7 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(personModule.queries.infectRelated.query);
+      await runQuery(personModule.queries.infectRelated);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -96,9 +97,7 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(
-        personModule.queries.infectPersonVisitedInfectedLocation.query
-      );
+      await runQuery(personModule.queries.infectPersonVisitedInfectedLocation);
       res.sendStatus(201);
     } catch (err) {
       res.status(500).send(err);
@@ -111,11 +110,11 @@ export class PersonController {
     res: Response
   ): Promise<void> {
     try {
-      const people = await runQuery(personModule.queries.getPeople.query);
+      const people = await runQuery(personModule.queries.getPeople);
 
       res.status(200).send({
         total: people.records.length,
-        records: people.records,
+        records: people.records.map((el: any) => el._fields[0].properties),
       });
     } catch (err) {
       res.status(500).send(err);
