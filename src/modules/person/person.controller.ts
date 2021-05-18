@@ -113,10 +113,37 @@ export class PersonController {
   ): Promise<void> {
     try {
       const people = await runQuery(personModule.queries.getPeople);
+      console.log(people.records);
 
       res.status(200).send({
         total: people.records.length,
         records: people.records.map((el: any) => el._fields[0].properties),
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
+  public static async getRelated(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      const people = await runQuery(personModule.queries.getRelated);
+
+      res.status(200).send({
+        total: people.records.length,
+        relations: people.records.map((el: any) => {
+          return {
+            start: el._fields[0].start.properties.dni,
+            end: el._fields[0].end.properties.dni,
+          };
+        }),
+        startNodes: people.records.map(
+          (el: any) => el._fields[0].start.properties
+        ),
+        endNodes: people.records.map((el: any) => el._fields[0].end.properties),
       });
     } catch (err) {
       res.status(500).send(err);

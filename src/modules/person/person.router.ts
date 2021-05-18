@@ -32,3 +32,7 @@ personRouter.get("/infected", (req: Request, res: Response) => {
 personRouter.get("/", (req: Request, res: Response) => {
   personModule.controller.getPeople(req, res);
 });
+
+personRouter.get("/related", (req: Request, res: Response) => {
+  personModule.controller.getRelated(req, res);
+});
