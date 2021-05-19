@@ -30,6 +30,6 @@ export const personQueries: queries = {
     query: "MATCH(n:Person) return n",
   },
   getRelated: {
-    query: "MATCH n=(:Person)-[:RELATED*0..2]->(:Person:Infected) RETURN n limit 1000",
+    query: "MATCH n=(:Person)-[:RELATED*0..2]->(:Person:Infected) RETURN n limit 600",
   },
 };
