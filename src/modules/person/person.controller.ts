@@ -113,7 +113,6 @@ export class PersonController {
   ): Promise<void> {
     try {
       const people = await runQuery(personModule.queries.getPeople);
-      console.log(people.records);
 
       res.status(200).send({
         total: people.records.length,
