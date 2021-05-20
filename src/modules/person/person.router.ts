@@ -36,3 +36,11 @@ personRouter.get("/", (req: Request, res: Response) => {
 personRouter.get("/related", (req: Request, res: Response) => {
   personModule.controller.getRelated(req, res);
 });
+
+personRouter.get("/nextinfected", (req: Request, res: Response) => {
+  personModule.controller.getNextDayInfected(req, res);
+});
+
+personRouter.post("/shortestpath", (req: Request, res: Response) => {
+  personModule.controller.getShortestPath(req, res);
+});

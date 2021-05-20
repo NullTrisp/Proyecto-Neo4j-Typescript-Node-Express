@@ -149,4 +149,45 @@ export class PersonController {
       console.error(err);
     }
   }
+
+  public static async getNextDayInfected(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      const people = (
+        await runQuery(personModule.queries.getNextDayInfected)
+      ).records.concat(
+        (await runQuery(personModule.queries.getNextDayInfected2)).records
+      );
+
+      res.status(200).send({
+        total: people.length,
+        records: people.map((el: any) => el._fields[0].properties),
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
+  public static async getShortestPath(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      personModule.queries.getShortestPath.params!.init = req.body.init;
+      personModule.queries.getShortestPath.params!.end = req.body.end;
+      const path = (await runQuery(personModule.queries.getShortestPath))
+        .records[0] as any;
+
+      res.status(200).send({
+        total: path.length,
+        records: path._fields,
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
 }

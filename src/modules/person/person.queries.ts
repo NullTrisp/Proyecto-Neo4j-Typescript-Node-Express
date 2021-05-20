@@ -30,6 +30,20 @@ export const personQueries: queries = {
     query: "MATCH(n:Person) return n",
   },
   getRelated: {
-    query: "MATCH n=(:Person)-[:RELATED*0..2]->(:Person:Infected) RETURN n limit 600",
+    query:
+      "MATCH n=(:Person)-[:RELATED*0..2]->(:Person:Infected) RETURN n limit 600",
+  },
+  getNextDayInfected: {
+    query:
+      "MATCH (p:Person {infected: false})-[:RELATED]->(:Person:Infected) return p",
+  },
+  getNextDayInfected2: {
+    query:
+      "MATCH (n:Person {infected: false})-[:RELATED]->(:Person {infected: false})-[:RELATED]->(:Person:Infected) return n",
+  },
+  getShortestPath: {
+    query:
+      "MATCH (a:Person {dni: $init}) WITH a MATCH (b:Person {dni: $end}) WITH a,b return shortestpath((a)-[:RELATED*..]->(b))",
+    params: {},
   },
 };
