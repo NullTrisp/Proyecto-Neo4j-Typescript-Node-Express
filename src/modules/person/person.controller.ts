@@ -150,6 +150,26 @@ export class PersonController {
     }
   }
 
+  public static async getRelatedDni(
+    req: Request<import("express-serve-static-core").ParamsDictionary>,
+    res: Response
+  ): Promise<void> {
+    try {
+      personModule.queries.getRelatedDni.params!.dni = req.params.dni;
+      const ans = (await runQuery(personModule.queries.getRelatedDni)).records;
+
+      res.status(200).send({
+        total: ans.length,
+        records: ans
+          .map((el: any) => el._fields[0])
+          .filter((el) => el.dni !== req.params.dni),
+      });
+    } catch (err) {
+      res.status(500).send(err);
+      console.error(err);
+    }
+  }
+
   public static async getNextDayInfected(
     req: Request<import("express-serve-static-core").ParamsDictionary>,
     res: Response
@@ -182,8 +202,13 @@ export class PersonController {
         .records[0] as any;
 
       res.status(200).send({
-        total: path.length,
-        records: path._fields,
+        path: {
+          start: path._fields[0].start.properties,
+          segments: path._fields[0].segments.map((el: any) => {
+            return { start: el.start.properties, end: el.end.properties };
+          }),
+          end: path._fields[0].end.properties,
+        },
       });
     } catch (err) {
       res.status(500).send(err);

@@ -37,6 +37,10 @@ personRouter.get("/related", (req: Request, res: Response) => {
   personModule.controller.getRelated(req, res);
 });
 
+personRouter.get("/related/:dni", (req: Request, res: Response) => {
+  personModule.controller.getRelatedDni(req, res);
+});
+
 personRouter.get("/nextinfected", (req: Request, res: Response) => {
   personModule.controller.getNextDayInfected(req, res);
 });
