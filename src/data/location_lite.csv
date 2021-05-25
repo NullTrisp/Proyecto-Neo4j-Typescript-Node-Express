@@ -1,0 +1,501 @@
+zip_code,location,infected
+14e5aca0-5812-4d9f-83be-5e773ecd6322,Peshawar,false
+e1c55b8a-ab60-492d-9e43-0af0ee9ca537,Rotterdam,false
+3676caae-8030-44d1-8b86-c6b97590e70d,Saskatoon,false
+4d1c9fcc-9e0e-431c-9741-d8de59347c1b,Brikama,false
+647220f8-3e31-4e46-9778-aa7f87dc5724,Konya,false
+fe96954e-5c48-49f6-9770-abc004b281ee,Zanzibar City,false
+90b9f9ef-62dc-4447-949d-c8a0ecb54394,Washington,false
+f89fe012-360e-4d47-ae65-e2bf891207f7,Nice,false
+7b5e8a6e-449f-48e3-a983-546e11c3366a,Dili,false
+23e4828f-5df9-4f66-8562-a6deaf4df246,Ludhiana,false
+af61a805-224a-439c-8460-ff8dbc2b77f3,Anchorage,false
+02b57273-756a-4533-9891-fb162fffc60f,Bern,false
+5d7ca40e-bdf9-482e-9418-3021d5aeba33,Fukuoka,false
+1f026b19-2812-4a29-a71c-08618d96852a,Ilhéus,false
+1f65b056-dc49-4b94-b2bb-dbc263ef25ac,Aarhus,false
+5e5f5e40-00b7-4db5-b703-ddd46fd086cd,Paris,false
+3194746b-2e88-43f8-876e-30077b5baf4c,Philadelphia,false
+32d3aa6e-fba7-48a4-8fce-b226369367b0,Rabi Island,false
+38def10d-0ec8-4227-a2b6-694cb2a3b000,Geneva,false
+c99f095d-e694-4591-a813-54712af989cf,Bogotá,false
+2ab69166-1411-4606-9e4c-ad0d29df6bf6,Santiago de Cuba,false
+3f656d14-062d-4dda-b98e-cbd62dfd18e6,Atlanta,false
+1393e908-806f-41f8-acaa-e401ec776579,El Paso,false
+6f666637-9629-4ee2-a9d1-9b8c5bbbe3c0,Kano,false
+7a1a3684-065a-4bb6-ac79-16894ab2041e,Shenyang,false
+abf33f68-af1b-40b0-bd95-5326ec4254de,Port Elizabeth,false
+b829ae72-18ab-4d8a-a31a-f69beebd138b,İzmir,false
+efe33234-f157-4176-a03e-8d66bc88fba6,Budapest,false
+69e30d3f-d9ec-4968-9182-dfa56c8f8708,Koror,false
+b6dc4f33-6849-42a5-b282-66be71708dbc,Cincinnati,false
+e1b7b7d7-683f-42f9-832a-e18f56060fe6,Calama,false
+6dbdec00-9f84-4867-a134-3e18c9e011d9,Kanpur,false
+543553d8-125c-4761-aa9d-859f7f8c03a6,Nicosia,false
+a6546ebf-f2f3-4b37-8ad4-f8f948e6c5f4,Libreville,false
+e7ed4806-3b42-40f4-9d00-48d4c7fb6973,Konya,false
+381c93b1-f6a1-426f-8e42-1ac3d092cde8,Cologne,false
+e26c01ab-146c-4e66-b938-386d4fcab01c,Ilhéus,false
+ae3c914b-89f1-418a-8f67-ace0ee33f78f,Birkirkara,false
+17f77bb1-7e61-4ae6-8bff-4ccbdff9c0ee,Pelotas,false
+e1f2bee7-7cac-4fa7-94b9-5b307983fa65,Seattle,false
+ce949663-617e-48b5-b728-992ef30f528a,Bloemfontein,false
+f2ed8614-5869-4775-970c-9393455e1118,Hangzhou,false
+02023d2a-4e30-4f71-b227-7d793847970f,Srinagar,false
+2d39d4da-aaca-411f-95ff-5225b847c8a0,Durban,false
+f57ba0a0-47fe-44b3-835f-7d23cecaee9a,Chişinău,false
+76c1e35a-f749-4c42-a5e5-6baac98e396d,Bishkek,false
+3ad78d32-fa21-4870-a6c1-f48659920f2f,Wuhan,false
+a38e3743-9034-4060-be7c-72f174310644,Charlotte Amalie,false
+72839c4b-e5a9-4ed3-be91-f4d44ee5cf0b,Dushanbe,false
+99f28331-c33b-4647-8dd2-81d03daed8c6,Nukuʻalofa,false
+47cbe0d2-fa72-4fa1-972b-911559f7af94,Taichung,false
+bd756faa-9e80-40fd-a914-e50e30695e8d,Bangalore,false
+9d414e14-fe04-417b-9150-14f0c02e0251,Faisalabad,false
+8fa19ad3-4bfd-4887-9827-8b3de67fe6d8,Santiago de Cuba,false
+253141ce-455f-43a5-af29-f8e725f19f6a,Charlotte Amalie,false
+d626a220-b13f-417f-923f-fd7eedf7edf7,Rockhampton,false
+680d1de1-e3ea-485c-b2f9-afe6a0d59373,Arequipa,false
+6f44dc0d-0b29-4462-bf4a-43e59ec8f317,Chişinău,false
+cd3ed250-b3df-4f4e-95c9-23d89ea6b1eb,Zapopan,false
+dbfa278e-054b-47fa-bac1-4e5c4a16c937,Johor Bahru,false
+d7ef0a74-c119-4ea7-8ad1-d0da9c4d65be,Jersey City,false
+a22e1a8b-4ae0-4c33-bcc9-36fbadd137cb,Kawasaki,false
+f28610c4-c541-420b-a63e-c66853a6b0f8,Faisalabad,false
+af3c80e6-4111-48a8-83f8-dd44bf00f952,Dhaka,false
+ee04cc69-cf02-4cce-9569-773690e6277f,Nukulaelae,false
+5644facb-d0df-406f-bafe-cc81a4d456cd,Oklahoma City,false
+279c8a91-33e9-412a-a0fd-e86cbabf9dd5,Mbabane,false
+374c615f-d1d0-4e16-bf25-95d56c014053,Hanover,false
+8857d64a-83b3-49a7-ae6a-c8c7306ae0ee,Batticaloa,false
+dd2e5c09-575b-4480-82a9-dca7e3be0efa,Dongguan,false
+bc36fed8-0a73-41ae-8b4b-027be54d9518,Taiyuan,false
+d9597856-9bd5-4397-92d5-01b5d474017b,Ushuaia,false
+2b57ac3e-3c13-412a-a452-0a25e3e0e644,Ibiza,false
+5640c1b8-6681-4981-ab2b-ee30709427ca,Edmonton,false
+5e5711b1-a841-45cb-8825-0af36eef65e6,Podgorica,false
+9d18321d-436f-4287-a3bb-990ca84c3ccc,Geelong,false
+cfbcc40c-2d3c-4157-bed0-2f49e366f771,Tiraspol,false
+e9641697-4a06-47ee-b9dc-0aea72e953a0,Blantyre,false
+ed65724f-8bb2-4d41-ae43-b08c7e3785a8,Muscat,false
+3fcd44d6-9044-495c-b6c9-ad0aef0e1a10,Tashkent,false
+dccc73c8-d389-4bc7-bc00-4ea87e99352c,Valletta,false
+2eb7f12e-c7bd-40fb-b195-ff042b998e2c,Castries,false
+30ecb149-9bef-4b30-917f-078c3fe278a6,Skopje,false
+1d488a5f-2696-4414-a7fa-e8623a81528a,Panama City,false
+8402518f-c377-458b-9575-480adafbe412,Santo Domingo,false
+4fddf4e6-6acb-4b36-94ba-6a55b4a1ae6a,Nassau,false
+ac88a277-987e-4634-927e-1f84565613a9,Timbuktu,false
+9fd7241c-41e3-4de2-a20e-2ca271a23432,Tunis,false
+aa86e504-7962-41fc-9589-0b82fe39a28a,Perth,false
+a239c34c-fd53-48d2-9c5f-52d1b312c896,Gdańsk,false
+7608b2b4-a9ca-4279-b041-0eed410ecaea,Lanzhou,false
+3f3f398d-5d72-41fb-9359-4b02c12de427,Astana,false
+42cbe529-dcc3-4b16-834d-441d90291044,Lomé,false
+796d7996-92cc-4e1c-9f18-eee46d13ce47,Bucharest,false
+86f6737f-97b4-4a07-a8d4-6c812ee9551e,Palikir,false
+5e868d97-9d48-4988-8049-41d112f339c3,Bloemfontein,false
+ac7e5cd1-b224-4168-9052-0480bde353a9,Tbilisi,false
+0b5f28f8-86fd-4d19-a4ff-968ea5bde506,Ciudad del Este,false
+a31a4aa5-5991-437d-afc9-84c6d82f48db,Niamey,false
+35ddb333-a934-4785-84e4-1dd3bd168661,Mandurah,false
+de8dbcd0-3275-473f-98ca-86a778f220ca,Padang,false
+badf581f-e72e-4c36-ba7f-277601e2bd49,Fort-de-France,false
+86decaeb-8737-4849-888e-87f6748cb7b5,Zapopan,false
+224821d6-cbef-4972-a7f1-76cc17bdb4c9,Jaipur,false
+6b4a75bc-557f-48e5-b0cb-ff2f9ca4a04d,Malang,false
+a5026cd3-5f7a-4d37-b068-81222243bd1a,Cayenne,false
+cf815918-4445-4f12-b310-b596beaa520c,Cologne,false
+70e3ae70-2ef8-4cb7-ba21-66dd0c7d170c,Abu Dhabi,false
+2a6156e4-ca21-447d-8391-4cb4cecb1331,La Paz,false
+7c4861bc-857d-4395-a318-322dcbc74162,Ponta Delgada,false
+35e222a3-1e8a-444b-a681-fda773cf693b,Fredericton,false
+166439a3-2091-48d4-a087-1dda22fbeded,Kolkata,false
+bfe789b7-08f8-49be-9844-a813c9916e22,Invercargill,false
+fc63b388-956c-49c8-a5b7-cabd8e057039,Quetzaltenango,false
+97fb416f-07e0-4361-a5b7-a64e9aeca5fe,Serekunda,false
+64d7d498-5c12-402b-8700-0ccaf8598163,Guangzhou,false
+35de8ee3-9a1d-415b-bc20-119756b9c46f,Boa Vista,false
+9e36867f-ec72-4c12-af7a-5a38bfda9a32,Taipei,false
+811885b2-81fb-4b0f-93d3-7428dc9a0965,Lviv,false
+b605e52a-d64c-4906-84c5-fd6e873bca90,Bern,false
+8aca6230-bee0-40cb-b8fa-16276b5723bc,Montreal,false
+e6a99aed-df20-4bc1-988d-9c34e69b0175,Suez,false
+09e5906a-17b7-436d-88d4-d6cc76d9a5de,El Paso,false
+cbf9e4bd-9816-41b1-a075-a7f33f79eaf3,Regina,false
+4617773c-4a69-4cde-a0fb-6b12ede30a7b,Lusaka,false
+38bda21b-9dae-4dca-93a3-d0e24d9456ae,Rabi Island,false
+2f8a9280-c15f-48d5-84e8-83b50a7bf039,Djibouti (city),false
+1f396092-f480-40e4-b36d-7a4c2bc1c6df,Stanley,false
+9000b342-6d2a-421d-a4b9-8b33cfa7da71,Havana,false
+91a5d4ed-3e3a-4f89-ab2b-9c1177b86f33,Surabaya,false
+f8d364c8-2109-4ec3-9609-faeac63cffca,Iquitos,false
+ed1d9edd-edd9-4db7-91f3-53905ae917f0,Thimphu,false
+31467e8e-554b-4282-8d3c-8dbbbce6ab6b,Shenzhen,false
+f34a0fa9-eaeb-4234-a6db-f7ded12f2ec4,Fairbanks,false
+0e498708-2651-4851-a5a9-7d86deb22636,Pelotas,false
+e681a090-cf57-4877-854a-8a716d8b0fa6,Yerevan,false
+2d4d0c50-63e3-449e-b32a-b12e67f36774,Rotterdam,false
+1404bfca-4a6e-45c5-b4b4-f230d8d92468,Madrid,false
+d6aba6ae-3157-4c78-b333-8f608b60f94a,Kuching,false
+36b59a7d-413b-4ac1-ab09-fdc6c270c9c2,Forked River,false
+1ea80df1-9202-4e61-94d9-aeae1043a985,St. John's,false
+bac043a0-fe75-488f-9151-8865c6145312,Sitka,false
+3dcda694-24ef-4384-a385-7e9ff0a68daf,Bucharest,false
+74d59286-723b-4ba6-96cc-76980a4b43db,Muscat,false
+481303a3-0c63-4026-8503-85cd16753c87,Bursa,false
+443eb841-47a4-4c87-835e-c5a78c2c15ec,Ljubljana,false
+c16859c1-b4fd-4b8a-a76c-71a559b8beaf,Taipei,false
+7ea4c271-a946-4a77-8a7f-48ead5476b10,Belgrade,false
+765954a2-6bc8-4ae1-9bde-31fa8f1f1545,Kandy,false
+0a308225-20b1-4581-9a12-a1e19dcf2ce2,Saint Petersburg,false
+47669278-9b23-4520-a453-0c2d7f367459,Strasbourg,false
+362ee5ca-7dbf-4a9d-9b7c-87ce82dd9f88,Seattle,false
+22d70f10-0619-4a91-8482-64d1a7e77fe9,Bangkok,false
+b5dcf136-6acd-4dd6-9d13-06388e72e3e5,Luanda,false
+e7a48f9b-fa7c-4a48-a3c8-1c49b1d376fa,Praia,false
+1e18b912-fabb-4057-9e1d-e493d9cddd9e,Port Blair,false
+853727e2-2a98-475f-a1bc-88a651f7a18a,Thessaloniki,false
+dbb5c8cc-c263-4e02-89b4-44596cd2cc08,Mogadishu,false
+5f8784de-4198-4735-bf29-1f0e070f2129,Asunción,false
+517babfc-6e51-420b-8399-1f34beb1f02b,Adamstown,false
+9a89fced-478d-404c-83c5-e45e12a41581,Sukhumi,false
+1b028736-a3c3-4f73-a3d8-5a6c1a439ac8,Barranquilla,false
+63b2c4c7-b072-4bb6-afba-df19660f16ae,Helsinki,false
+6f0b6249-9869-4974-a393-db18cdda850d,Yellowknife,false
+601fc09c-beb9-41b3-8e73-9d3d90309a36,Hanoi,false
+f6955a7f-b2a7-4548-8bc5-741dd07d2ed7,Banjul,false
+76b0e986-3ee8-4fff-b5fc-f065147524f6,Málaga,false
+536d5ed0-1917-414d-87ad-3583a6e2be1c,Hilo,false
+68d569d3-a8b5-4d21-9b9e-e3e44dca90fc,Istanbul,false
+c019e799-6258-4c64-9864-86b12affb79c,City of Halifax,false
+4473f1a1-e9a8-4fa4-aea5-15db24786300,Koror,false
+cb5b417d-1a93-47d5-85a8-0ee220fd40ed,Vientiane,false
+c2199fd6-1ae8-43f1-8ed7-e4d935bc93b9,Porto,false
+86dfc95a-27d5-4e2b-881b-0031cd635d87,La Serena,false
+7cd769ac-c933-48d5-b43d-159dce6a223d,Forked River,false
+ec7c654c-6c19-440b-bcea-74c200f3cbb6,Iquitos,false
+1d02e5f7-9539-4299-8de7-031b904aa1bf,Mandurah,false
+4befa245-f2ec-4857-97a2-795a604fee95,Khartoum,false
+2dbfe0da-6f5d-4311-a00e-fdcfe4492175,Jamestown,false
+27274481-334f-46ae-a489-658476ec6a87,London,false
+0100329b-7749-45d0-bdd9-ee62a9f43969,Porto Velho,false
+c8bca330-8050-4af4-abf2-d2338d0978ac,Barcelona,false
+324a20fe-8cd4-4eaf-b52e-8ecdd307ff60,Santiago de Cuba,false
+a6fd63be-fdcd-45af-98a7-0889ffd70586,Santa Cruz de la Sierra,false
+b14c52e8-e0bc-4853-8334-12b4de1f963a,Vatican City,false
+c32a968a-1a59-49a3-9fbd-1cfc6719fc61,Dar es Salaam,false
+34aa696a-88d3-47ed-ad08-35e0bcebfede,Accra,false
+984546ae-cd07-4808-92a3-d08efbb54814,Palma,false
+f933b10e-490b-4cb6-98df-85e70b01f0ad,La Paz,false
+be3de9b9-1b38-47a9-b68b-467ff46e0d55,Porto Velho,false
+089c3566-ac3f-4c49-85da-61d9cf5d10e2,Pittsburgh,false
+c7f8c1e7-3ecb-4b3c-91b0-b995f0d6b919,N'Djamena,false
+e86e1a5e-a982-4834-bef0-c8d8145b0a51,Angra do Heroísmo,false
+c29b27eb-f9aa-4a32-b0f3-355d941f9c57,Kiev,false
+78ae5bc2-2b85-4e15-b20a-9c12722fffc8,Bloemfontein,false
+c6a4b951-9438-40c1-98cb-bd2e6707be6e,Monaco,false
+6275aacc-90c7-45e8-bb73-65ecd7eb31c3,Fairbanks,false
+903625dd-b8eb-4d1a-9551-487c61c928f8,Banjul,false
+797cb0fe-cbb9-43f6-b1f9-095035b15532,Abidjan,false
+828929c9-d725-40b4-9826-ff5079d83fed,Miri,false
+9dc1dfe6-35a9-4274-a57e-1dd6bcbff626,Mendoza,false
+9adcacff-beca-4800-be73-813906330953,Vatican City,false
+f7a69e0e-b25b-4ca2-9e0f-d8d32686331a,Francistown,false
+f127f630-cd4a-498c-b035-d18d561e3b74,Malabo,false
+2eb29d59-9523-441b-9c3c-81f5ca0af5dc,El Paso,false
+30d95eb1-6378-42a9-9b8f-2db83be8ac72,Dublin,false
+5fe33c2d-0459-4853-813e-ba5beb6aaf2f,Ashgabat,false
+b4376600-ca9e-4c99-9c47-370ec51327fb,Havana,false
+eee6d456-63b2-44bd-95e2-955dccd76372,Singapore,false
+8e7ed196-abc5-4275-8869-8a34635845de,Chişinău,false
+8fa1626f-2511-4d58-8b1c-6677bbd9cf73,Yerevan,false
+5c67cb85-0c12-4e2a-b683-a0b5d7122ff7,Leipzig,false
+639d853d-c94c-4ae4-af36-28f823cf29dc,Espoo,false
+1bd4e52a-a8e3-49a4-b7ea-2ce814858a7e,Algiers,false
+42475615-d5cc-4d04-919d-baa4435a4651,Colombo,false
+be25c535-4887-429a-bc99-26d4e760ce2d,Anadyr (town),false
+5c57ad3e-ec95-4e35-aa90-a787dfd44743,Harbin,false
+ee404c21-2170-410a-b772-bbc1af316db9,Taipei,false
+b61b5467-4f44-4de3-969f-775d1ca88f48,Naples,false
+720a0d77-1c3e-4060-835d-bd00d4877d80,Daegu,false
+49116e22-e5f4-4ae4-b2a9-da56fad8d30e,Zagreb,false
+83b25e2b-9809-4bcf-a170-eb5b04071940,Kiev,false
+eeab5c62-c0ab-46e5-89ad-3bcba2c6ef6e,Kota Kinabalu,false
+d4788bd8-8811-45c0-9c39-2fc6f00cd26a,Dushanbe,false
+0ac1e95d-a630-40df-80f3-64111ad00d88,Osaka,false
+2372ae95-071d-4e42-9f7e-7fb7c6ec01ec,Salzburg,false
+1c2f9c23-a188-4581-b393-76998825654f,Dublin,false
+3536cb2f-810a-479c-b2da-3fd45f1fb751,Nukus,false
+ece01a4e-4c1b-4f59-9e19-0a8142b42f6b,Port Elizabeth,false
+8ac095ca-b68c-4700-a65a-8e528fa3d866,Avarua,false
+8e0661a6-2ae6-4c07-bb7f-51ec61a49e57,Mumbai,false
+2ad99fcc-90f9-4910-9624-98bbb71fcc96,Charlotte Amalie,false
+d0419776-ea70-4d2b-b366-d3c12a643bce,Phnom Penh,false
+022984a0-163f-4159-b4aa-a42b938ad183,Gibraltar,false
+c71bbd61-8488-4541-b5d8-f998a86453b8,Antananarivo,false
+8e02bed2-8547-437f-8700-d78cd5b926de,Recife,false
+93d11606-64f7-4d65-adc3-0abbb2625ffa,Jaipur,false
+60e9ad57-055b-4737-a6f1-d1269c59eb24,Abuja,false
+5f7aad4b-7299-41c5-9eff-4bcd520b782e,London,false
+dab3831d-2af0-4067-979d-d14a43626646,Kharkiv,false
+b1148fa4-be25-4808-b22c-42ee6cedd87e,El Paso,false
+a1d72fb1-6fb3-4504-9205-b6bbd7a3e405,Punta Arenas,false
+530c5822-ade8-42ef-8db3-c16a47d663cc,São Paulo,false
+8f0a75c7-9256-4ba3-9584-83e5cea8d086,Bujumbura,false
+fc725254-6944-47a4-86aa-a76aef3e1798,Da Nang,false
+19cbaa53-5027-42ee-af01-6c252996260b,Seville,false
+8c3a7ccf-0b60-4da3-aaae-4f720d5942f0,Monaco,false
+484b042c-1b5a-46e6-81c5-b766690424a0,Pristina,false
+12ee602a-70c1-4b19-a32e-301086b6db98,São Paulo,false
+172f00e5-f35c-4bee-aa34-15cfddd827e0,Pyongyang,false
+41ff0314-8ff7-419f-a849-73f63bf3c86b,Bandung,false
+71ce8a48-df40-4b0d-9182-7b4ba3a6183d,Longyearbyen,false
+b9354fe1-af2f-419d-b06f-0c775de38ab3,Kobe,false
+611a03f3-9c58-4d35-a9d9-6bb3cffcdd5c,Adelaide,false
+dea8ab4c-ac73-4044-a4f8-ff0adeb761ba,Recife,false
+2f9cb182-f84c-4503-b360-6a5126ff666b,Skopje,false
+e4875a53-db12-4a06-aa2f-3022c8c7e08f,Lomé,false
+fcca3e08-d128-4fbc-ae4c-7143c0d4e2f1,Geneva,false
+5189802f-0647-4103-b78d-5ca06add6cc7,Antananarivo,false
+65f61d02-52a6-45c6-90a9-ab9b24291031,Greenwich,false
+3135f4b2-73b1-4413-932b-36263a8c8b8b,Pretoria,false
+799cc1a3-1ec8-4295-8016-41cbec63bbae,Amsterdam,false
+66db86af-21ba-4709-8b12-3b972b15d372,Valparaíso,false
+b67a91e4-faa0-4deb-9370-9569dc9b2499,Jacksonville,false
+6026b205-db56-4e81-bbee-9b1fa246e1f2,Casablanca,false
+6c9702f8-20e5-4a80-ab48-36063d616053,Montevideo,false
+9c1e09ca-9a62-4d6f-b81f-ebbf2efb43e5,Santiago,false
+279e05cc-19f1-4fa6-81ae-da14691c7c31,Zürich,false
+fa302b69-843c-4d8a-a2a2-ce6d435d6009,Jersey City,false
+17ccbb6b-f4d6-477b-94a0-7391b052e034,Sana'a,false
+c619acd7-d983-4071-9e82-de7900e3d503,Bratislava,false
+55fcf828-28e5-402c-9f46-03e4faf1df70,San Antonio,false
+f369d496-a3f9-4cf2-ba43-f3080c709fd6,Cuiabá,false
+ada29c7d-0c66-47e8-90d5-3cc81de76ed8,Castries,false
+dc1b2c8e-8d68-41c8-9c26-25c41d4070f8,Barranquilla,false
+731c13d8-b075-48a4-b109-95215d3a4ca1,Shijiazhuang,false
+14b4bb17-ae37-4f7e-a9e0-204371b2b4f4,Christchurch,false
+b9cbf5d7-7bc3-4709-b60b-1c9d17df4b09,Iquique,false
+1f0e2c4b-aa9d-4e84-8d6e-4bef1778b167,Petropavlovsk-Kamchatsky,false
+9bcd1835-ec62-47fc-9436-7881c5dc976b,Dammam,false
+a3ff834b-3267-410a-b009-8eea541cf847,Lomé,false
+ca4f4690-18f5-495d-8325-357c1b720990,Malang,false
+c1f820ab-dad7-4cce-a3ea-65b9a87ba104,Ilhéus,false
+16294b0b-87e5-41bf-aad6-364df97408f0,Mata-Utu,false
+7f369cfb-2d41-4562-b30e-26a2d26803a9,Pyongyang,false
+32de6202-0e29-4980-96a4-3483cf66669f,Huế,false
+c7b149e1-74a1-471f-8608-8b10bb03f522,Medellín,false
+fe8dfda5-f9d0-48df-b92d-67f63688f61e,Sacramento,false
+f828baa1-758b-45fa-8fb8-8116a2594485,Lucknow,false
+d3d5913d-4ced-4416-be18-ae696dd64dae,Dubai,false
+589ba7c9-c6ff-41fc-b770-bc0a31c5723f,Hanga Roa,false
+0e3e9dea-4a54-4262-aa94-f35f03a32e28,Nukuʻalofa,false
+62772821-545a-48a5-99b0-062833cd984f,Seville,false
+ed24b339-80cb-42b5-b19f-7ecc79a50533,Valdivia,false
+c2789616-269f-413c-9afd-6cc227c1d193,Bogor,false
+eb5db566-fe4d-4f83-998c-1384ec35878e,Townsville,false
+f33f9379-ed87-4b50-afea-4adef4635acf,Puerto Williams,false
+998de33c-924e-4560-aba2-9aaf68bd6730,Porto Alegre,false
+3c8c3af5-9387-40e8-b400-6392d2168c35,Greenwich,false
+a3a27e89-d55f-4bc6-8466-e5a263f5dda8,Lanzhou,false
+03400be3-275e-412a-a168-27a496055309,Enugu,false
+029738bd-7676-4cb6-a1c1-cc4bb5ebc754,Johor Bahru,false
+90926dec-a01e-4b11-85db-0deaa7bee5ac,Tallinn,false
+d34b910a-6a72-4ade-9811-5ee0ac09890a,Mumbai,false
+3812b6d7-ea86-417d-a81d-d820ab47580b,Port-au-Prince,false
+ff246b45-f592-4088-98de-d39ee58eda1a,Rabat,false
+ccdc078c-d557-494e-8360-513f8fbced9a,Freetown,false
+264be85a-9d94-49a0-8675-2193ad59f778,Campinas,false
+69b29c15-dd3d-4a23-b398-5c40c70da514,Hong Kong,false
+5ddf8cd3-6835-4b44-abcf-ee3b61f2895a,Leipzig,false
+f5258de6-2226-4cc8-8d53-db0b4352d283,Bridgetown,false
+b3ba7586-bfa6-4e6d-97ba-fdeeff6ed8a8,Petropavlovsk-Kamchatsky,false
+ef8599bd-a641-408b-b559-240b996f26d0,Luxembourg (city),false
+e630c7b2-914a-4329-99a6-31acbb4a9724,Helsinki,false
+6e90373e-e62d-4a78-a2a0-3666c4c5250b,Porto-Novo,false
+5a18e493-f49d-4d57-a67a-7ce32d58a7cf,Antwerp,false
+c0c854f6-9564-4667-b6d9-3de684666f9a,Makati City,false
+befdcc2c-5452-44ef-8976-1bf0f1f80ade,Tskhinvali,false
+cf31b3bd-3bbd-41ff-8bea-464341b74cc3,Dili,false
+c8f814ff-0e47-44e6-85f9-bbdbd7d22200,Las Vegas,false
+2bfef31f-e7b8-4b71-8c48-19624f299979,Yellowknife,false
+e7dfe854-c51a-40a0-ae7d-869e83761b25,Riga,false
+d030214b-2cfb-4a67-bd85-0499f5d5fe2f,Muscat,false
+5194a385-6c14-4197-9880-57984b2e9e47,Jamestown,false
+7be8fc15-cf1c-49ae-b66e-c463ec589257,Omsk,false
+01eebe45-26d2-437f-936f-dcf404693b8b,Asmara,false
+0161b6bd-fa82-4386-909d-4a9209305239,Ambon,false
+539cbab2-c608-4f42-8a8e-09db9310e6e1,Malé,false
+61299821-43bc-4841-906c-7cbfc200fc92,St. Louis,false
+7bf2a267-5b29-4563-80e3-bc253dedc58b,Bogor,false
+de0ad5b7-5c6e-4acb-9ec7-c76cb5da4530,Dubai,false
+95a314d9-5e63-494b-aa92-793d41cd06fb,Tampere,false
+dc6e5724-7813-4307-858f-7ff28a5369ca,Taiyuan,false
+821aa4f8-bf0e-49e2-a75d-a9a35fbc5d33,Hyderabad,false
+d36ec459-407e-4e9d-80c7-343d5ba19ac5,Skopje,false
+a24738fa-b4d8-435c-8197-4331368206ce,Johannesburg,false
+76d0e4d9-ad95-4528-9750-f8d3e5ad03ae,Makassar,false
+a860c90d-8972-4c3e-9370-5a34a42d1551,Tagbilaran,false
+4d99b072-d617-446e-8160-a5c96b348781,Saint-Denis,false
+e7faa16a-2c9c-42c4-98a6-2a81ab33c7fc,Davao City,false
+429227e4-2665-473f-9cea-4c5abc559277,Belfast,false
+e6acbce0-05dd-4aa3-9fd1-8f811d448b03,Weno,false
+90e8b924-c8ae-4c15-a9fd-cc6127ef12c3,Tamale,false
+b6b2296c-0ad4-4d66-88a0-1da36de11258,Porto Alegre,false
+e57649ce-3336-44e1-a3db-f222178c96ee,Charlottetown,false
+b3cf4120-16f8-4bd0-8afe-e08ccfe79f6f,Gdańsk,false
+881fc23c-e509-46bf-b9f6-96ddfa325d74,Tartu,false
+838adcb0-ddd6-45a4-9456-1348f11add27,Anadyr (town),false
+83323357-99a9-4585-b303-402e567b597b,Phoenix,false
+313b1aac-f652-4c47-ac3b-1b0d2d70bf10,Kiev,false
+37d21e45-2fff-405c-9a4f-39b302695df7,Bangkok,false
+67ae93bc-99a7-46f3-96d3-6f5a3996bc72,Perm,false
+206208ac-e33b-48a1-8aa6-4f8fd9dadfce,Athens,false
+4e86126a-968f-4520-ae66-9cc626c1f599,Almaty,false
+20bf05e1-6e41-4dee-bee6-6880a7e0c6a2,Dushanbe,false
+1503c381-566a-4a5d-8e52-178fd00b337b,Newcastle,false
+8ff696c8-a0a0-42ce-9ae7-3dd8dc1ec1f9,Porto-Novo,false
+fa83ae37-3e45-4563-a6ae-74e12b1e661a,Liverpool,false
+09f9383f-ff7c-4015-8517-c7ffa6f7a6bd,Port Said,false
+f6a33c41-85a6-4e4f-9582-bacf776f22d2,Nuuk,false
+c9858a50-1716-420f-8bdd-648938efabfd,Tashkent,false
+19c44a10-3f45-4bdf-bbcf-05bec7da994d,Berlin,false
+5aeec19f-9bca-4a21-ba3e-37f35e0998c2,Ankara,false
+eed0721d-4fe2-455d-941f-61cc5cd35197,Regina,false
+f1393058-3072-4895-b59a-bc043a86884c,Yangon,false
+b70c0f44-9f97-43cb-b36e-ada095fcc0d5,Edinburgh,false
+2f31aefc-1e0d-48c8-ac7e-03bb10bebf0f,Castries,false
+7f2dc71f-432a-43ca-af25-e88652c488c2,Pittsburgh,false
+caad22ce-f965-4452-b3bc-b06514db3430,Lviv,false
+29dd87e4-266f-4ae0-948d-3a5589278391,Ponta Delgada,false
+5c8b02d1-5580-482d-8e11-f73c406e9b82,Dunedin,false
+266e5b76-9af5-45cb-a324-9fdaafa1959c,Tehran,false
+ed92e91b-f479-4942-912b-b15711a5a042,San Fernando,false
+8b761f30-ba95-48c3-a7ff-4983ffd32be1,Bahía Blanca,false
+c41d6834-7aae-43d4-9c3a-89fd826b76db,Munich,false
+daac2452-8c82-4097-b49f-c00c10e58112,Maceió,false
+63fcd4f7-307f-4104-8692-4658df3e9167,Sukhumi,false
+18d8231e-2ba3-4f5c-a3c4-2509ebafba4e,Abu Dhabi,false
+2b2e87c6-e288-4074-aaca-5f684c75391e,Palma,false
+4a34368f-a34a-4371-a442-e1bb4acf99a6,Thiès,false
+20ff4cc8-ac8e-4757-a37d-00d24efcf512,Bratsk,false
+f641a66d-53f1-4eed-aba4-939df3ada3d2,Tirana,false
+c6a59c2f-e085-468d-a275-71f57edead03,Chihuahua,false
+a3ae6e5b-db0a-41e4-8e5a-2d016e30be38,Porto Alegre,false
+376f6af2-dcd9-459d-b11b-86e61e6e5858,Graz,false
+8cbfece1-18be-4644-b479-3c4573099b80,Kuwait City,false
+8ecccb82-09ff-4998-b873-ca113ec8324f,Edinburgh,false
+fdc32e52-fef5-4752-9b1d-759c2601f87b,Saint John,false
+8876c58f-9e44-4d10-bc3f-f12ae43099c0,Regina,false
+fc51ed56-f417-4d11-a09a-2f513726d777,Jeddah,false
+f2d38bbb-524d-4891-b3e2-3d13ec1aed46,Havana,false
+21550ea1-39e8-451d-8240-ae1900ab4411,Chuí,false
+27072e8f-7525-4ba3-bd7b-8fe2a915be60,Nashville,false
+d325140d-db69-4de1-bbb5-d4aeda24f460,Quebec City,false
+057a58d2-962a-4487-a5da-ad6410572530,Assis,false
+99eb42ac-e8dd-450c-bc28-31ccb41b8e4a,Montreal,false
+e435a237-6e56-46be-9549-6226cf4ac85e,Dhaka,false
+d414dcad-3555-4006-a386-5f75cc9e8580,Perm,false
+73434d12-40a7-459b-be07-2dc2a536b7ed,Douala,false
+705f2ee7-42d7-46ab-9d3b-4d6966f59be6,Gaza,false
+2bf27024-a09d-4f1c-97db-1e6ffdb14793,Mumbai,false
+02061c66-4cda-4981-a364-e6e420c16703,Copenhagen,false
+e1615552-0b66-45f7-93c4-4590e46f3c2f,Ipoh,false
+101fd498-c511-4c78-afa1-0c613682d3b9,Fukuoka,false
+89c817ff-bd9b-4924-9463-7e3a450fadaa,Weno,false
+f0995808-4232-45c8-a921-e7f739069336,Nantes,false
+52cd1874-5967-46f0-afdd-117fd9caf128,Jacksonville,false
+eadf1dd4-695d-4c99-b200-47006ed3a893,London,false
+f28f11c8-c545-4344-aa16-9983c37fbbbb,Petropavlovsk-Kamchatsky,false
+8adb732c-6102-43f5-a518-205135745225,Zagreb,false
+f841ca83-31eb-40ed-86e8-86edb3b461ff,Jacksonville,false
+4cb337a1-abe1-47cf-b4bb-8b33933b31da,Bucharest,false
+ad45f972-9cb0-4210-ac0d-48750b0160a8,Ndola,false
+310f0599-9f89-4c8c-a8c1-3db7e52689de,Suez,false
+7b205128-fe66-4b6b-8a55-e01d6b7c3599,Tampa,false
+81d5ff81-228b-4222-bed2-d0f48a8b948b,Dhaka,false
+ae27721b-84be-454b-84f4-3ad9c855d7f0,Shenzhen,false
+139405f5-44d3-473c-8d6d-0c032244ebc8,Monaco,false
+cac43216-56d0-48d9-9e12-89a049eb46ff,Pelotas,false
+0f2c6fff-ceaf-4ad7-9d6b-8d34bb3a5ecd,Boston,false
+8b35c79b-fd88-4e8c-8a45-3240f0c39142,Wichita,false
+eb39b283-0f44-4d24-8d27-a3b2eaed0388,Kuching,false
+7611bfdf-1960-4e65-a66e-968c36e833f1,Hat Yai,false
+7d311ea0-36d0-42b4-b38f-897a1827e2fb,Andorra la Vella,false
+eeb65b33-7626-49a8-8adb-6293f019fdc7,Surat Thani,false
+f9e7303c-9e72-4e22-bf20-04653f0f4518,Porto,false
+c94642e6-3e1b-4fe9-8a7c-cbb097688785,Odessa,false
+531635a2-18d8-4b80-a30b-36b633667c70,Wuhan,false
+19781290-9abb-4738-bb35-ee0b8d63671a,Magadan,false
+f9661d10-4f96-45e4-b4a5-509ed0808ecb,City of Halifax,false
+816e68ed-b844-4e8a-8dd4-6cae1bcd4630,Buffalo,false
+98fba1a4-657b-4be5-b955-0e64d21b71ef,Ipoh,false
+7ee43950-85b9-4020-b35a-7853dad11fa7,Ouagadougou,false
+e55bf8f3-9b0c-4d18-bbe6-c84b654bb6e3,Horta (Azores),false
+8821524d-503a-4981-a5af-b4fb4c2994de,Reykjavík,false
+178eba73-c874-4477-819e-8ad140c41383,Riverside,false
+b32f1f98-2bdd-4882-839d-9f80b04f887d,Memphis,false
+6bfde44b-5e64-42b6-9bac-22dd493374be,Concepción,false
+14ae96e7-8107-4b16-acc5-2fa69faa5719,Whitehorse,false
+88f346ce-fcc1-472f-9bbf-a86cf727c9e2,Fairbanks,false
+2b91a2b1-140c-49ab-a18d-20d4e6691638,Bogotá,false
+8748b8de-e3e3-4f52-8d4a-ea3cb42a1c95,Saint-Denis,false
+647fbcb7-f9a9-43ff-951c-23c5b8835e5b,Davao City,false
+2ad51d84-fd0b-4883-8320-5881fdc00ca5,Lhasa,false
+be14feed-6a78-489e-8d38-192a94fe6f0f,Dresden,false
+dd881e44-708a-4372-a603-99d0a797ee4b,Jakarta,false
+bd543526-de0d-47ee-b9bc-f5c58c15b0b4,San Fernando,false
+6345681f-6323-450d-b3a3-9b11838b3d4a,Quito,false
+710aa5be-d9ea-4f78-a9bb-a4298da730cf,Port-au-Prince,false
+aff04cad-f1af-4216-bbbc-4367516d4b53,Geelong,false
+adefe345-5895-49e2-aaa0-5130a669df7f,Nouméa,false
+3c97c7c6-2964-462e-ac78-4b8d639fd268,Philadelphia,false
+72e30baf-2542-4156-8dad-1c2efdc6194f,Palikir,false
+4629a2d6-16d4-4fcb-9f6a-8e0bea7b1dce,Manama,false
+fa41f082-3402-43ec-af3a-0bbc5f2c9612,Chennai,false
+9e9140d8-5b58-40e5-a3d5-50742f5b3a13,Alor Star,false
+feeb6dff-7131-42e4-8bb2-52ce17057fb7,Zamboanga City,false
+a5264b9d-fec7-4dc4-a3e9-f32c44348906,Srinagar,false
+d51e62f5-3517-4085-8743-d58846658b78,Batticaloa,false
+ccc4fbd6-9dcf-4b68-b3c2-19df80732965,Siem Reap,false
+7a4f22c0-ac2f-490b-a224-3ff38e87fc88,Barranquilla,false
+4e8d3d02-e83c-40ff-bed2-090608e1251a,Skopje,false
+928e542a-ef25-4846-b95b-5c9f6051a354,Las Palmas de Gran Canaria,false
+b3dd2edd-d831-47e6-8a2a-f4e68338f039,Da Nang,false
+16a5f11c-1365-4418-b2e4-14d92930c931,Ponta Delgada,false
+be7d3458-30bd-48f4-bd2d-c8a30e0c83d1,Peshawar,false
+392e8d9d-1aca-4028-911f-fd74a6db6f5b,Kaesong,false
+2b3cb9dc-0594-4c87-87d7-655f9d013bda,Guwahati,false
+06679b56-9690-4b7a-b934-bd3fb31641fd,Macapá,false
+fc53ca25-f5ef-471c-a684-720243a3162d,Koror,false
+ce0ad731-d992-4323-b584-040239f75edb,Kinshasa,false
+6747a3a4-9aa0-467b-889f-3dda6f83da0d,Nassau,false
+8ba836de-beb5-4ab6-8b23-c498e0c7b7d3,Daegu,false
+4384bd84-adb0-416a-a83b-2705f2ec63d2,Francistown,false
+bd06d6e2-ec23-4159-be28-c9a181dbf0b4,Hanoi,false
+6253caf0-0f58-46a1-bbef-d78aaf7750f3,Riyadh,false
+90177ed2-51cc-409a-9f3d-8f77923c6e6e,Belmopan,false
+dd30a717-6ecf-4cbb-b698-3cd82d8b18e8,Asunción,false
+81718390-85d8-4a4c-9505-28a411889700,Sana'a,false
+f59a9b1b-e5c9-485f-ab33-c38921db1892,Jerusalem,false
+4e508036-599a-4e8a-8da2-beb8eeb3e4f6,Shigatse,false
+a0122089-497f-49e6-a0ce-fba8509880fc,Edmonton,false
+10c9ddc5-dbb2-43a0-9d26-fd28f84fa860,Kiev,false
+69b5f9e4-08b5-49d2-9242-4f166b0a5567,Yekaterinburg,false
+5fb8c6c2-c5e5-4860-9cc5-d45317b133c6,Malacca Town,false
+f76cd4b0-5286-4a4d-951f-d510ad033bfe,Kuching,false
+a04ff26c-5279-4301-afa4-0b3aeaee1ad9,Sucre,false
+de04f93a-a71b-44f0-bff3-b8444275a64c,Sukhumi,false
+f062eb77-e290-4220-9e95-0ca760dcecbc,Lobamba,false
+0b5359c8-a7d6-431b-b305-cec0f1a1e458,Daegu,false
+74e14647-44cd-4457-8007-166fcf5ee927,Amman,false
+5215cad4-52b6-4fdc-b797-83f9afd98a51,Valencia,false
+27ffec06-8406-4a1d-8b92-83afb0f8ff8c,Pune,false
+4e3712f2-2518-4923-972e-069f920ec471,Riga,false
+23efdbf2-8bcd-4825-9ae7-721e2123b87b,Darwin,false
+943d212d-f115-4fc2-a669-3b45d9a3191f,Incheon,false
+c6b43c5c-0391-4d8e-adc9-a4320c3b763f,Valletta,false
+655db59e-9f51-4b05-9076-8d1e8b0a5a4a,Montreal,false
+12a8a297-b514-4c2c-a78d-cde2ba207c87,Belfast,false
+5a27e505-5c7a-4539-913f-97835e6eafd4,City of San Marino,false

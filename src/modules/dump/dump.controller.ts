@@ -8,11 +8,19 @@ export class DumpController {
     res: Response
   ): Promise<void> {
     try {
-      await runQuery(dumpModule.queries.loadLocations);
+      if (req.body.lite) {
+        await runQuery(dumpModule.queries.loadLiteLocations);
 
-      await runQuery(dumpModule.queries.loadPeople);
+        await runQuery(dumpModule.queries.loadLitePeople);
 
-      await runQuery(dumpModule.queries.relatePeoplewithPeople);
+        await runQuery(dumpModule.queries.relatePeoplewithPeople);
+      } else {
+        await runQuery(dumpModule.queries.loadLocations);
+
+        await runQuery(dumpModule.queries.loadPeople);
+
+        await runQuery(dumpModule.queries.relatePeoplewithPeople);
+      }
 
       res.sendStatus(201);
     } catch (err) {
