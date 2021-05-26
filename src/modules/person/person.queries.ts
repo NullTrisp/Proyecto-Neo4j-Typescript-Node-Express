@@ -17,7 +17,7 @@ export const personQueries: queries = {
   },
   infectRelated: {
     query:
-      "MATCH (:Infected)-[:RELATED*1..2]->(p:Person) with collect(p) as ns FOREACH(i in ns | SET i:Infected SET i.infected = true)",
+      "MATCH (:Infected:Person)-[:RELATED*0..1]->(p:Person {infected: false}) with collect(p) as ns FOREACH(i in ns | SET i:Infected SET i.infected = true)",
   },
   infectPersonVisitedInfectedLocation: {
     query:
