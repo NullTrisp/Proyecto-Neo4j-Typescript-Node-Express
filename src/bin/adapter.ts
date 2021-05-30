@@ -3,6 +3,5 @@ import { CONSTANTS } from "./constants";
 
 export const DBDRIVER = neo4j.driver(
   CONSTANTS.DBURI,
-  neo4j.auth.basic(CONSTANTS.DBUSER, CONSTANTS.DBPASS),
-  { encrypted: true }
+  neo4j.auth.basic(CONSTANTS.DBUSER, CONSTANTS.DBPASS)
 );
