@@ -4,7 +4,7 @@ import { DBDRIVER } from "../bin/adapter";
 
 export async function runQuery(exec: query): Promise<Result> {
   try {
-    const session = DBDRIVER.session();
+    const session = DBDRIVER.session({database: "neo4j"});
     const result = await session.run(exec.query, exec.params);
     session.close;
 
