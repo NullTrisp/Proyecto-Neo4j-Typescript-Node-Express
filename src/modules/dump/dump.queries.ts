@@ -7,8 +7,8 @@ export const dumpQueries: queries = {
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {zip_code: row.zip_code, name: row.location, infected: row.infected})",
     params: {
       location:
-        "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/location.csv",
-      // "file:///" + path.join(__dirname, "..", "..", "data", "location.csv"),
+        // "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/location.csv",
+        "file:///" + path.join(__dirname, "..", "..", "data", "location.csv"),
     },
   },
   loadLiteLocations: {
@@ -16,8 +16,9 @@ export const dumpQueries: queries = {
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Location {zip_code: row.zip_code, name: row.location, infected: row.infected})",
     params: {
       location:
-        "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/location_lite.csv",
-        // "file:///" + path.join(__dirname, "..", "..", "data", "location_lite.csv"),
+        // "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/location_lite.csv",
+        "file:///" +
+        path.join(__dirname, "..", "..", "data", "location_lite.csv"),
     },
   },
   loadPeople: {
@@ -25,8 +26,8 @@ export const dumpQueries: queries = {
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Person {dni: row.DNI, name: row.firstname, last_name: row.lastname, infected: toBoolean(row.infected)})",
     params: {
       location:
-      "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/people.csv",
-      // "file:///" + path.join(__dirname, "..", "..", "data", "people.csv"),
+        // "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/people.csv",
+        "file:///" + path.join(__dirname, "..", "..", "data", "people.csv"),
     },
   },
   loadLitePeople: {
@@ -34,8 +35,9 @@ export const dumpQueries: queries = {
       "LOAD CSV WITH HEADERS FROM $location as row CREATE (:Person {dni: row.DNI, name: row.firstname, last_name: row.lastname, infected: toBoolean(row.infected)})",
     params: {
       location:
-      "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/people_lite.csv",
-      // "file:///" + path.join(__dirname, "..", "..", "data", "people_lite.csv"),
+        // "https://raw.githubusercontent.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express/develop/src/data/people_lite.csv",
+        "file:///" +
+        path.join(__dirname, "..", "..", "data", "people_lite.csv"),
     },
   },
   relatePeoplewithPeople: {
