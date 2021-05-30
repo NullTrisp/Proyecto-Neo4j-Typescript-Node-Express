@@ -4,9 +4,10 @@
   "description": "",
   "main": "src/bin/server.ts",
   "scripts": {
-    "setUp": "npm i && cd src/TracerFront && npm i",
-    "start": "concurrently \"nodemon src/bin/server.ts\" \"cd src/TracerFront && npm run serve\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_PATH=./build node build/bin/server.js",
+    "build": "tsc -p .",
+    "dev": "concurrently \"nodemon src/bin/server.ts\" \"cd src/TracerFront && npm run serve\"",
+    "setUp": "npm i && cd src/TracerFront && npm i"
   },
   "repository": {
     "url": "https://github.com/NullTrisp/Proyecto-Neo4j-Typescript-Node-Express.git"
