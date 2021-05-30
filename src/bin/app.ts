@@ -2,7 +2,6 @@ import express from "express";
 import { modules } from "../modules/modules";
 import cors from "cors";
 import { CONSTANTS } from "./constants";
-
 export class app {
   private app: express.Application;
 
@@ -18,7 +17,22 @@ export class app {
 
   private config(): void {
     this.app.use(express.json({ limit: "50mb" }));
-    this.app.use(cors({ origin: CONSTANTS.ORIGIN }));
+    this.app.use(
+      cors({
+        origin: function (origin, callback) {
+          if (!origin) return callback(null, true);
+          if (CONSTANTS.ORIGINS.indexOf(origin) === -1) {
+            return callback(
+              new Error(
+                "The CORS policy for this origin doesn't allow access from the particular origin."
+              ),
+              false
+            );
+          }
+          return callback(null, true);
+        },
+      })
+    );
   }
 
   private setUpBackEnd(): void {
@@ -29,5 +43,8 @@ export class app {
       modules.analyticsModule.baseUri,
       modules.analyticsModule.router
     );
+    this.app.get("/", (req, res) => {
+      res.send("hello docker!");
+    });
   }
 }
